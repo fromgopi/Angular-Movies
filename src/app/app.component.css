@@ -1,0 +1,34 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-sidenav-container {
+    flex: 1;
+}
+
+.is-mobile .main-sidenav-container {
+    flex: 1 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* XS */
+@media (max-width: 559px) {
+    .os-movie {
+        display: none;
+    }
+}
+
+
+/*sm*/
+@media (min-width: 600px) and (max-width: 959px) {
+    .os-movie{  display: none;  }
+}
+
+/*md*/
+@media (min-width: 960px) and (max-width: 1279px) {
+
+}
